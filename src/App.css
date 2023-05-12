@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > li {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0.5rem;
+  padding: 1.5rem;
+}
+.skills {
+  display: flex;
+}
+
+.skills > li {
+  text-align: center;
+  padding: 0.2rem;
+}
+
+p {
+  text-align: center;
 }
